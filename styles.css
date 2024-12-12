@@ -1,0 +1,36 @@
+#summary-overlay {
+    max-width: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 4px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 10000;
+    color: #fff;
+}
+
+#summary-button {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+#summary-button:hover {
+    color: #000;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#summary-button:disabled {
+    color: #aaa;
+    cursor: default;
+}
